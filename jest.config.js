@@ -7,6 +7,8 @@ module.exports = {
   },
   moduleNameMapper: {
     "@middleware-suite/(.*)": "<rootDir>/lambda/middleware-suite/$1",
-    "@middleware": "<rootDir>/lambda/middleware"
+    "@model/(.*)": "<rootDir>/lambda/model/$1",
+    "@middleware": "<rootDir>/lambda/middleware",
+    "@pipeline": "<rootDir>/lambda/pipeline",
   }
 };

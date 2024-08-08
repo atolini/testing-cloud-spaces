@@ -20,10 +20,15 @@
     "typescript": "~5.3.3"
   },
   "dependencies": {
+    "@aws-sdk/lib-dynamodb": "^3.624.0",
     "@types/aws-lambda": "^8.10.142",
     "aws-cdk-lib": "2.131.0",
     "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1667.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "constructs": "^10.0.0",
+    "esbuild": "^0.23.0",
     "source-map-support": "^0.5.21"
   }
 }

@@ -24,8 +24,10 @@
       "./node_modules/@types"
     ],
     "paths": {
-      "@middleware": ["lambda/middleware"],
-      "@middleware-suite/*": ["lambda/middleware-suite/*"]
+      "@middleware": ["./lambda/middleware"],
+      "@middleware-suite/*": ["./lambda/middleware-suite/*"],
+      "@pipeline": ["./lambda/pipeline"],
+      "@model/*": ["./lambda/model/*"]
     }
   },
   "exclude": [
