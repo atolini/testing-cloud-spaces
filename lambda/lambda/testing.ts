@@ -1,9 +1,5 @@
 import Pipeline from "@pipeline";
-import {
-    APIGatewayProxyEvent,
-    APIGatewayProxyResult,
-    Context,
-} from "aws-lambda";
+import {APIGatewayProxyEvent, APIGatewayProxyResult, Context,} from "aws-lambda";
 import httpJsonBodyParser from "@middleware-suite/httpJsonBodyParser";
 import {MiddlewareContext} from "@middleware";
 import validator from "@middleware-suite/validator";
